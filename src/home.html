@@ -5,42 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-     <img src="Images/download.png" alt="Ethiopian Trousm minister logo">
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="destination.html">Your Destination</a>
-            <a href="Upark.html">Unity park</a>
-            <a href="Entoto.html">Entoto</a>
-            <a href="About.html">About</a>
-            <a href="Contact.html">Contact</a>
+    <!-- <div class="header">
+        <div class="header-right">
+            <ul>
+                <li class="logo"><img src="Images/download.png" alt="Ethiopian Trousm minister logo" width="100px" height="50px"></li>
+                <li class="nav-bar"><a href="Contact.html">Contact</a></li>
+                <li class="nav-bar"><a href="About.html">About</a></li>
+                <li class="nav-bar"><a href="Entoto.html">Entoto</a></li>
+                <li class="nav-bar"><a href="Upark.html">Unity park</a></li>
+                <li class="nav-bar"><a href="destination.html">Your Destination</a></li>
+                <li class="nav-bar"><a href="home.html">Home</a></li>
+            </ul>
+        </div>
+    </div> -->
+    <header id="Home">
+        <nav class="navbar">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <img src="Images/download.png" alt="minister logo" class="nav-logo" width="100px">
+                    
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li>
+                        <a href="home.html" class="nav-link scroll-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="destination.html" class="nav-link scroll-link">Your Destination</a>
+                    </li>
+                    <li >
+                        <a href="Upark.html" class="nav-link scroll-link">Unity park</a>
+                    </li>
+                    <li>
+                        <a href="Entoto.html" class="nav-link scroll-link">Entoto</a>
+                    </li>
+                    <li>
+                        <a href="About.html" class="nav-link scroll-link">About</a>
+                    </li> 
+                    <li>
+                        <a href="Contact.html" class="nav-link scroll-link">Contact</a>
+                    </li>
+                </ul>
+                <div id="toggle-button">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+            </div>
         </nav>
-    <h1>WELCOME TO ADDIS ABABA,ETHIOPIA</h1>
-    <h2>The diplomatic hub of Africa</h2>
-    <h3>Home to the headquarters of the African Union, the third largest United Nations population, and <br> with representation from nearly every foreign embassy from around the world, <br>Addis Ababa is often referred to as the political capital of Africa.</h3>
-    <h3>Visit Addis Ababa and Enjoy its cultural, Historical, Natural and Man made Tourist Attractions</h3>
-    <h2>Not Sure Where to Visit In Addis Ababa start here</h2>
-    <a href="Unity park.html">Unity PARK</a>
-    <img src="Images/mente.jpeg" alt="Unity(park)">
-    <figcaption>Figure1.1, parts of unity park</figcaption>
-    <img src="Images/intoto.jpeg" alt="Entoto(park)">
-    <figcaption>Figure1.2,Entoto birds eye view</figcaption>
-    <a href="Entoto.html">ENTOTO PARK</a>
-    <footer>
-        <ion-icon name="call-outline"></ion-icon>&nbsp;
-        contact +251118127731
-        <a href="https://www.facebook.com/people/%E1%8B%A8%E1%8A%A0%E1%8B%B2%E1%88%B5-%E1%8A%A0%E1%89%A0%E1%89%A3-%E1%8A%A8%E1%89%B0%E1%88%9B-%E1%8A%AE%E1%88%99%E1%8A%92%E1%8A%AC%E1%88%BD%E1%8A%95-%E1%89%A2%E1%88%AE-Addis-Ababa-City-Communication/100066583024934/">Facebook<ion-icon name="logo-facebook"></ion-icon> &nbsp;Facebook</a>
-        <a href="mailto:addisababacommunication@gmail.com">Email<ion-icon name="mail-outline">Email</ion-icon>&nbsp;
-        About</a>
-        <ul>
-            <li><a href="About.html">The website</a></li>
-            <li><a href="Contact.html">contact us</a></li>
+        <div class="hero">
+            <div class="hero-banner">
+                <h1>WELCOME TO ADDIS ABABA, ETHIOPIA</h1>
+                <p>The diplomatic hub of Africa, Home to the head-quarters of the African Union, the third largest United Nations population, and with representation from nearly every foreign embassy from around the world, Addis Ababa is often referred to as the political capital of Africa.</h3>
+                Visit Addis Ababa and Enjoy its cultural, Historical, Natural and Man made Tourist Attractions</p>
+            </div>
+        </div>
+
+    </header>
+    <section class="section">
+        <div class="section-title">
+            <h2>NOT SURE WHERE TO VISIT IN <span>ADDIS ABABA</span> START HERE</h2>
+        </div>
+        <div class="section-center about-center">
+            <article class="about-img">
+                <img src="Images/mente.jpeg" alt="Unity(park)" class="tour-img" width="500" height="300">
+            </article>
+            <article class="about-info">
+                <h3>Explore Unity Park</h3>
+                <p>Experience the magic of Unity Park Aquarium, where 1000 aquatic animals are waiting to greet you. Walk through massive tunnels to enjoy educational experiences ...</p>
+                <a href="Upark.html" class="btn">Read More</a>
+            </article>
+        </div>
+        <div class="section-center about-center">
+            <article class="about-img">
+                <img src="Images/intoto.jpeg" alt="Entoto(park)" class="tour-img" width="500" height="300">
+            </article>
+            <article class="about-info">
+                <h3>Explore Entoto Park</h3>
+                <p>Entoto Park features sports facilities, libraries, entertainment, restaurants, and coffee shops, as well as a man-made lake and fountains, walking paths, and is a unique natural sight in a mountain area for relaxation and pleasure. It is at the north edge of Addis Ababa at an altitude of 2600m to 3200 meters ...</p>
+                <a href="Entoto.html" class="btn">Read More</a>
+            </article>
+        </div>
+    </section>    
+    </div>
+    <footer class="section footer">
+        <ul class="footer-links">
+            <li>
+                <a href="https://twitter.com/AdanechAbiebie" target="__blank" class="footer-icon">
+                    <img src="./Images/twitter.png" alt="twitter">
+                </a>
+            </li>
+            <li>
+                <a href="mailto: addisababacommunication@gmail.com" target="__blank" class="footer-icon">
+                    <img src="./Images/email.png" alt="email">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100066583024934" target="__blank" class="footer-icon">
+                    <img src="./Images/facebook.png" alt="facebook">
+                </a>
+            </li>
+           
         </ul>
-        <a href="https://earn-smarter.com/entoto-park-addis-ababa-ethiopia-gate-of-paradise/">Gate of paradise</a>
+        <p class="copyright">
+            copyright &copy; Addis Ababa Tourism <span id="date"></span>
+            all rights reserved
+        </p>
     </footer>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">ghhjjj</script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
