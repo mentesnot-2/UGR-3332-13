@@ -4,33 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Contact</title>
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <img src="Images/download.png" alt="Ethiopian Trousm minister logo">
-    <nav class="nav">
-        <a href="home.html">Home</a>
-        <a href="destination.html">Your Destination</a>
-        <a href="Upark.html">Unity park</a>
-        <a href="Entoto.html">Entoto</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a>
-    </nav>
-    <form action="/action_page.php">
-        <p><label for="w3review">Share us your experience at or have any question put it in the text area below:</label></p>
-        <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
-        <input type="submit" value="Submit">
-    </form>
-    <footer>
-        <ion-icon name="call-outline"></ion-icon>&nbsp;
-        contact +251118127731
-        <a href="https://www.facebook.com/people/%E1%8B%A8%E1%8A%A0%E1%8B%B2%E1%88%B5-%E1%8A%A0%E1%89%A0%E1%89%A3-%E1%8A%A8%E1%89%B0%E1%88%9B-%E1%8A%AE%E1%88%99%E1%8A%92%E1%8A%AC%E1%88%BD%E1%8A%95-%E1%89%A2%E1%88%AE-Addis-Ababa-City-Communication/100066583024934/">Facebook<ion-icon name="logo-facebook"></ion-icon> &nbsp;</a>
-        <a href="mailto:addisababacommunication@gmail.com">Email<ion-icon name="mail-outline"></ion-icon></a> &nbsp;
-        <a href="About.html">About us</a>
-        <ul>
-            <li><a href="About.html">The website</a></li>
-            <li><a href="Contact.html">contact us</a></li>
+    <header id="Home">
+        <nav class="navbar">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <img src="Images/download.png" alt="minister logo" class="nav-logo" width="100px">
+                    <button type="button" class="nav-toggle" id="nav-toggle" title="button">
+                        <i class="fas fa-bars" width="21px"></i>
+                    </button>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li>
+                        <a href="home.html" class="nav-link scroll-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="destination.html" class="nav-link scroll-link">Your Destination</a>
+                    </li>
+                    <li >
+                        <a href="Upark.html" class="nav-link scroll-link">Unity park</a>
+                    </li>
+                    <li>
+                        <a href="Entoto.html" class="nav-link scroll-link">Entoto</a>
+                    </li>
+                    <li>
+                        <a href="About.html" class="nav-link scroll-link">About</a>
+                    </li> 
+                    <li>
+                        <a href="Contact.html" class="nav-link scroll-link">Contact</a>
+                    </li>
+                </ul>
+                <div id="toggle-button">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section contact">
+        <div class="section-center contact-center">
+            <article class="contact-title">
+                <h1>Contact Us And Buy your Ticket</h1>
+            </article>
+        </div>
+        <div class="container">
+            <form id="form" class="contact-form" action="/">
+                <div class="input-control">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" title="fname">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="fname" title="lname" >
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email" title="abc">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="phone">phone</label>
+                    <input id="phone" name="phone" type="number">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="Date" >Visiting Date</label>
+                    <input type="date" id="Date" name="Date">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="appt">Select a time:</label>
+                    <input type="time" id="appt" name="appt">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="payment">Choose payment method:</label> 
+                    <select name="payment" id="payment"  required>
+                        <option value="sending a text to 6030">sending a text to 6030</option>
+                        <option value="online payment using Ethio telecom">online payment using Ethio telecom</option>
+                        <option value="paying on the Commercial Bank of Ethiopia">paying on the Commercial Bank of Ethiopia</option>
+                        <option value="buying an entrance ticket at the gate of the Park.">buying an entrance ticket at the gate of the Park.</option>
+                    </select>
+                    <div class="error"></div>
+                </div>
+                <button type="submit">Submit</button
+            </form>
+        </div>
+        
+       
+    </section>
+    <footer class="section footer">
+        <ul class="footer-links">
+            <li>
+                <a href="https://twitter.com/AdanechAbiebie" target="__blank" class="footer-icon">
+                    <img src="./Images/twitter.png" alt="twitter">
+                </a>
+            </li>
+            <li>
+                <a href="mailto: addisababacommunication@gmail.com" target="__blank" class="footer-icon">
+                    <img src="./Images/email.png" alt="email">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100066583024934" target="__blank" class="footer-icon">
+                    <img src="./Images/facebook.png" alt="facebook">
+                </a>
+            </li>
+           
         </ul>
+        <p class="copyright">
+            copyright &copy; Addis Ababa Tourism <span id="date"></span>
+            all rights reserved
+        </p>
+    </footer>
+    <script  src="./app.js"></script>
 </body>
 </html>
