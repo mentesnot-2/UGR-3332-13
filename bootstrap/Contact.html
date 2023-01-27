@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded sticky-top ">
+        <a href="" class="navbar-brand fs-3 ms-3 "><img src="Images/download.png" alt="minister logo" class="nav-logo" width="100px"></a>
+        <button class="navbar-toggler me-3 navbar-light " type="button" data-bs-toggle="collapse" data-bs-target="#btn" title="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="btn">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link  mx-3 text-dark">Home</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a href="destination.html" class="nav-link  mx-3  text-dark">Your Destination</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a href="Upark.html" class="nav-link  mx-3 text-dark">Unity park</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a href="Entoto.html" class="nav-link  mx-3 text-dark">Entoto</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a href="About.html" class="nav-link  mx-3 text-dark">About</a>
+                </li> 
+                <li class="nav-item"></li>
+                    <a href="Contact.html" class="nav-link mx-3 text-dark">Contact</a>
+                </li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        </div>
+    </nav>
+    <form class="row g-3 needs-validation bg-info pb-5 mt-0"  novalidate>
+        <div class="col-md-6">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="invalid-feedback">
+            First Name Empty!
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02"  required>
+          <div class="invalid-feedback">
+            Last Name Empty!
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustomUsername" class="form-label">Enter your Email</label>
+          <div class="input-group has-validation">
+           <input type="email" id="email" name="email" title="abc" class="form-control"  required>
+            <div class="invalid-feedback">
+              Please choose a email.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom05" class="form-label">Phone</label>
+            <input type="number" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid phone number.
+            </div>
+          </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Visiting Date</label>
+          <input type="date" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid visiting date.
+          </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom05" class="form-label">Select a Time</label>
+            <input type="time" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid Vising Time.
+            </div>
+          </div>
+        <div class="col-md-6">
+          <label for="validationCustom04" class="form-label">Payment</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option value="sending a text to 6030">sending a text to 6030</option>
+                <option value="online payment using Ethio telecom">online payment using Ethio telecom</option>
+                <option value="paying on the Commercial Bank of Ethiopia">paying on the Commercial Bank of Ethiopia</option>
+                <option value="buying an entrance ticket at the gate of the Park.">buying an entrance ticket at the gate of the Park.</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid payment method.
+          </div>
+        </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+          <section class="mb-4">
+            <a class="btn btn-outline-light btn-floating m-1" href="mailto: addisababacommunication@gmail.com" target="__blank" role="button">
+                <img src="./Images/twitter.png" alt="twitter" width="50px">
+            </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="mailto: addisababacommunication@gmail.com" target="__blank"  role="button">
+                <img src="./Images/email.png" alt="email" width="50px">
+            </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100066583024934" target="__blank"  role="button">
+                <img src="./Images/facebook.png" alt="facebook" width="50px">
+            </a>
+        </section>
+        </div>
+        <div class="text-center p-3 bg-dark">
+            copyright &copy; Addis Ababa Tourism <span id="date"></span>
+            all rights reserved
+        </div>
+      </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
